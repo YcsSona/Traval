@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traval Website</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container">                
+            <h1 class="logo">Traval</h1>
+            <ul class="nav">
+                <li class="nav__items"><a href="./index.html" class="nav__links">Home</a></li>
+                <li class="nav__items"><a href="./about.html" class="nav__links">About</a></li>
+                <li class="nav__items"><a href="./contact.html" class="nav__links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="contact-main">
+        <section class="contact">
+            <div class="container">
+                <div class="form__wrapper">
+                    <div class="contact__info contact-box">
+                        <div class="contact__info-box">
+                            <i class="fas fa-map-marker-alt fa-3x"></i>
+                            <h2 class="md-heading info-box__heading">Location</h2>
+                            <p>2737  Earnhardt Drive,Louisville,Kentucky</p>
+                        </div>
+                        <div class="contact__info-box">
+                            <i class="far fa-envelope fa-3x"></i>
+                            <h2 class="md-heading info-box__heading">E-Mail</h2>
+                            <p>mail@mail.com</p>
+                        </div>
+                        <div class="contact__info-box">
+                            <i class="fas fa-phone-alt fa-3x"></i>
+                            <h2 class="md-heading info-box__heading">Call</h2>
+                            <p>502-724-1791</p>
+                        </div>
+                        <div><img src="./img/company-img.jpg" alt="Company Building" class="contact__img"></div>
+                    </div>
+    
+                    <form action="#" class="contact__form contact-box">
+                        <h2 class="lg-heading form__heading">Contact US</h2> 
+                        <div class="form-group">
+                            <label  for="username">Username</label>
+                            <input required  type="text" id="username">
+                        </div>
+                        <div class="form-group">
+                            <label  for="email">Email</label>
+                            <input required type="email" id="email" >
+                        </div>
+                        <div class="form-group">
+                            <label  for="phoneno">Phone</label>
+                            <input required type="text" id="phoneno">
+                        </div>
+                        <div class="form-group">
+                            <label  for="message">Message</label>
+                            <textarea name="Message" id="message"></textarea>
+                        </div>  
+                        <button type="submit" class="form__btn">Submit</button> 
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="social">
+            <i class="fab fa-facebook fa-4x"></i>
+            <i class="fab fa-twitter fa-4x"></i>
+            <i class="fab fa-instagram fa-4x"></i>
+        </div>
+        <p>Traval &copy; 2020, All Rights Reserved</p>
+    </footer>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+</body>
+</html>
